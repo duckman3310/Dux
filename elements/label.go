@@ -35,3 +35,6 @@ func (l *Label) Draw() {
 
 	rl.DrawTextEx(l.Font, l.Text, textPos, l.FontSize, l.Spacing, l.FontColor)
 }
+func (l *Label) Update() {
+
+}
