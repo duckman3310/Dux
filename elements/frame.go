@@ -15,7 +15,9 @@ type Frame struct {
 // Возвращяет ссылку на созданый Frame
 func NewFrame() *Frame {
 	return &Frame{
-		Segments: 8,
+		dux.Entity{
+			Segments: 8,
+		},
 	}
 
 }
