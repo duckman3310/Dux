@@ -38,3 +38,11 @@ func (l *Label) Draw() {
 func (l *Label) Update() {
 
 }
+
+func (l *Label) SetText(text string) {
+	l.Text = text
+}
+
+func (l *Label) GetText() string {
+	return l.Text
+}
